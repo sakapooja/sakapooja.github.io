@@ -204,7 +204,7 @@ function initScrollSpy() {
   const nav = document.getElementById("nav");
   const navLinks = [...document.querySelectorAll(".nav-links a")];
   const map = new Map(navLinks.map((a) => [a.getAttribute("href").slice(1), a]));
-  const sections = [...map.keys()].map((id) => document.getElementById(id)).filter(Boolean);
+  const sections = [...map.keys()].map((id) => document.getElementById(id)).filter((el) => el && !el.hidden);
 
   const onScroll = () => {
     nav && nav.classList.toggle("is-scrolled", window.scrollY > 8);

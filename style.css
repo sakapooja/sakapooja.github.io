@@ -619,3 +619,6 @@ a.contact-item:hover, .contact-item:has(a:hover) { border-color: var(--blue); tr
 }
 .cred-link:hover { border-color: var(--blue); }
 @media (min-width: 921px) { .cert.cert-tall { grid-row: span 2; } }
+
+/* Elements with the hidden attribute stay hidden even if a class sets display */
+[hidden] { display: none !important; }
