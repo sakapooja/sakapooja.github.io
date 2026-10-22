@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!--PAGE-HEAD-START-->
+  <title>Pooja Saka Portfolio</title>
+  <meta name="claude:viewport-fit-sides" content="cover">
+  <meta name="description" content="Pooja Saka is an aspiring software developer and B.Tech Information Technology student at Vidya Jyothi Institute of Technology, with projects in web development, LLM + RAG, machine learning and IoT.">
+  <meta name="author" content="Pooja Saka">
+  <meta name="keywords" content="Pooja Saka, software developer, software engineer, React.js, Java, Python, JavaScript, B.Tech IT, Vidya Jyothi Institute of Technology, portfolio, fresher, software developer">
+  <meta name="theme-color" content="#070b16">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pooja Saka | Aspiring Software Developer">
+  <meta property="og:description" content="B.Tech IT student seeking software developer roles. Projects in LLM + RAG, machine learning and IoT.">
+  <meta property="og:url" content="https://sakapooja.github.io/">
+  <link rel="canonical" href="https://sakapooja.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%234d8dff'/%3E%3Cstop offset='1' stop-color='%238f7cff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' fill='%23050914'%3EPS%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pooja Saka",
+    "jobTitle": "Aspiring Software Developer",
+    "email": "mailto:sakapooja07@gmail.com",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Vidya Jyothi Institute of Technology" },
+    "sameAs": ["https://linkedin.com/in/pooja-saka-4a122932a", "https://github.com/sakapooja"],
+    "knowsAbout": ["HTML", "CSS", "JavaScript", "React.js", "Node.js", "Java", "Python", "SQL"]
+  }
+  </script>
+  <!--PAGE-HEAD-END-->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--PAGE-BODY-START-->
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ================= NAVIGATION ================= -->
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#home" aria-label="Pooja Saka, back to top">
+      <span class="brand-mark" aria-hidden="true">PS</span>
+      <span>Pooja Saka</span>
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#journey">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="Switch colour theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path class="m-open" d="M4 7h16M4 12h16M4 17h10"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home" aria-labelledby="hero-name">
+  <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="status-pill"><span class="status-dot" aria-hidden="true"></span>Open to entry-level roles &amp; internships</span>
+      <h1 class="hero-name" id="hero-name"><span class="grad">Pooja Saka</span></h1>
+      <p class="hero-title">Aspiring <b>Software Developer</b> building reliable, user-friendly applications across the web, AI and IoT.</p>
+      <p class="hero-intro">I'm a B.Tech Information Technology student at Vidya Jyothi Institute of Technology. I code in Java, Python and JavaScript, build for the web with React.js and Node.js, and have built projects in applied AI (LLM + RAG, NLP) and IoT.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="#projects">
+          Explore My Work
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a class="btn btn-ghost" href="assets/Pooja_Saka_Resume.pdf" download="Pooja_Saka_Resume.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+          Download Resume
+        </a>
+        <a class="btn btn-text" href="#contact">Contact Me</a>
+      </div>
+      <dl class="facts">
+        <div class="fact"><dt class="fact-label">CGPA</dt><dd class="fact-val" style="margin:0">8.66<span style="color:var(--muted);font-weight:500;font-size:.7em">/10</span></dd></div>
+        <div class="fact"><dt class="fact-label">Projects</dt><dd class="fact-val" style="margin:0">3</dd></div>
+        <div class="fact"><dt class="fact-label">Virtual internships</dt><dd class="fact-val" style="margin:0">3</dd></div>
+        <div class="fact"><dt class="fact-label">Graduating</dt><dd class="fact-val" style="margin:0">2027</dd></div>
+      </dl>
+    </div>
+
+    <figure class="editor" aria-label="A short code snippet describing Pooja" style="margin:0">
+      <div class="editor-bar">
+        <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+        <span class="editor-tab">pooja.js</span>
+      </div>
+      <div class="editor-body">
+<pre class="code" id="code"><span class="ln"><span class="k">const</span> pooja = {</span><span class="ln">  <span class="p">role</span>: <span class="s">"Aspiring Software Developer"</span>,</span><span class="ln">  <span class="p">degree</span>: <span class="s">"B.Tech, Information Technology"</span>,</span><span class="ln">  <span class="p">college</span>: <span class="s">"Vidya Jyothi Institute of Technology"</span>,</span><span class="ln">  <span class="p">graduating</span>: <span class="n">2027</span>,</span><span class="ln">  <span class="p">languages</span>: [<span class="s">"Java"</span>, <span class="s">"Python"</span>, <span class="s">"JavaScript"</span>, <span class="s">"SQL"</span>],</span><span class="ln">  <span class="p">web</span>: [<span class="s">"React.js"</span>, <span class="s">"Node.js"</span>, <span class="s">"REST APIs"</span>, <span class="s">"MySQL"</span>],</span><span class="ln">  <span class="p">exploring</span>: [<span class="s">"LLMs"</span>, <span class="s">"RAG"</span>, <span class="s">"NLP"</span>, <span class="s">"IoT"</span>],</span><span class="ln">  <span class="p">lookingFor</span>: <span class="s">"an entry-level opportunity"</span>,</span><span class="ln">};</span><span class="ln"></span><span class="ln"><span class="c">// ready to contribute to real-world projects</span></span><span class="ln">pooja.<span class="p">build</span>(<span class="s">"something useful"</span>);<span class="cursor" aria-hidden="true"></span></span></pre>
+      </div>
+      <figcaption class="editor-foot">
+        <span><span class="ok">●</span> compiled · 0 errors</span>
+        <span>UTF-8 · JavaScript</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container about-grid">
+    <div class="portrait reveal">
+      <!-- PROFILE PHOTO: put your photo at assets/profile.jpg and it appears here automatically. -->
+      <img src="assets/profile.jpg" alt="Portrait of Pooja Saka" width="720" height="960" loading="lazy"
+           onerror="this.remove()">
+      <div class="portrait-fallback" aria-hidden="true">
+        <span class="portrait-initials">PS</span>
+        <span class="portrait-note">Add your photo at assets/profile.jpg</span>
+      </div>
+      <div class="portrait-tag"><b>Pooja Saka</b><span>B.Tech IT · 2024–2027</span></div>
+    </div>
+
+    <div class="about-text">
+      <div class="section-head" style="margin-bottom:8px">
+        <span class="path">~/about.md</span>
+        <h2 class="section-title" id="about-title">About me</h2>
+      </div>
+      <p>I'm <strong>Pooja Saka</strong>, an Information Technology undergraduate at <strong>Vidya Jyothi Institute of Technology</strong> (2024–2027) with a CGPA of 8.66/10, after completing a Diploma in Civil Engineering at Govt. Polytechnic Masab Tank. I'm working toward a career as a software developer, and I enjoy turning ideas into working applications that are reliable, interactive and easy to use.</p>
+      <p>I program in Java, Python and SQL, and build for the web with HTML, CSS, JavaScript, React.js, Node.js and REST APIs, backed by a foundation in OOP, DBMS, data structures, operating systems and computer networks. I've built an AI-powered legal compliance system using LLMs and retrieval-augmented generation, a wearable smart pendant for real-time health monitoring, an NLP model that detects harmful speech, and an IoT child-safety monitor. I've also completed virtual internships with Deloitte, ServiceNow and EduSkills.</p>
+      <p>I'm looking for an entry-level opportunity where I can apply my technical skills, contribute to real-world projects and keep growing as a software developer.</p>
+      <div class="about-cols">
+        <div class="mini-card">
+          <h3>Strengths</h3>
+          <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Analytical thinking</li>
+            <li>Adaptability</li>
+          </ul>
+        </div>
+        <div class="mini-card">
+          <h3>Interests</h3>
+          <ul>
+            <li>Software development</li>
+            <li>Full-stack web apps with React.js &amp; Node.js</li>
+            <li>Applied AI: LLMs, RAG and NLP</li>
+            <li>IoT and real-time systems</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="section section-alt" id="skills" aria-labelledby="skills-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="path">~/skills/</span>
+      <h2 class="section-title" id="skills-title">Technical skills</h2>
+      <p class="section-lede">The languages, tools and fundamentals I use to design, build and ship software.</p>
+    </div>
+    <div class="skills-grid">
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></span>
+          <h3>Web technologies</h3>
+        </div>
+        <ul class="chips"><li class="chip">HTML</li><li class="chip">CSS</li><li class="chip">JavaScript</li><li class="chip">React.js</li><li class="chip">Node.js</li><li class="chip">REST APIs</li></ul>
+      </article>
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 7l-5 5 5 5M16 7l5 5-5 5M14 4l-4 16"/></svg></span>
+          <h3>Programming languages</h3>
+        </div>
+        <ul class="chips"><li class="chip">Java</li><li class="chip">Python</li><li class="chip">SQL</li></ul>
+      </article>
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span>
+          <h3>Databases</h3>
+        </div>
+        <ul class="chips"><li class="chip">MySQL</li><li class="chip">MongoDB</li></ul>
+      </article>
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 2v4M15 2v4M9 18v4M15 18v4M2 9h4M2 15h4M18 9h4M18 15h4"/></svg></span>
+          <h3>CS fundamentals</h3>
+        </div>
+        <ul class="chips"><li class="chip">OOP</li><li class="chip">DBMS</li><li class="chip">Data Structures</li><li class="chip">Operating Systems</li><li class="chip">Computer Networks</li></ul>
+      </article>
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="9" r="2.5"/><path d="M6 8.5v7M18 11.5c0 3.5-6 2.5-10.5 5.2"/></svg></span>
+          <h3>Tools</h3>
+        </div>
+        <ul class="chips"><li class="chip">Git</li><li class="chip">GitHub</li><li class="chip">Postman</li></ul>
+      </article>
+      <article class="skill-card reveal">
+        <div class="skill-card-head">
+          <span class="skill-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5M16 4.6a3.5 3.5 0 0 1 0 6.8M18.5 14.8c1.6.8 2.6 2.5 3 5.2"/></svg></span>
+          <h3>Soft skills</h3>
+        </div>
+        <ul class="chips"><li class="chip">Communication</li><li class="chip">Teamwork</li><li class="chip">Analytical Thinking</li><li class="chip">Adaptability</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<!-- Project cards are generated from the PROJECTS list at the top of script.js.
+     Edit that list to change text or add your GitHub / live-demo links. -->
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="path">~/projects/</span>
+      <h2 class="section-title" id="projects-title">Featured projects</h2>
+      <p class="section-lede">Three builds across IoT, machine learning and NLP. Each card shows the problem, what I built, and how the system works from input to output.</p>
+    </div>
+    <div class="projects" id="project-list"></div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION + INTERNSHIPS ================= -->
+<section class="section section-alt" id="journey" aria-labelledby="journey-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="path">~/journey.log</span>
+      <h2 class="section-title" id="journey-title">Education &amp; virtual internships</h2>
+    </div>
+    <div class="journey">
+      <div class="reveal">
+        <h3 class="col-title">Education</h3>
+        <ol class="timeline" style="list-style:none;margin:0">
+          <li class="t-item">
+            <span class="t-date">2024 – 2027</span>
+            <h4>Bachelor of Technology (B.Tech), Information Technology</h4>
+            <p class="t-org">Vidya Jyothi Institute of Technology</p>
+            <p class="t-badge"><span>CGPA</span>8.66 / 10</p>
+          </li>
+          <li class="t-item">
+            <span class="t-date">2021 – 2024</span>
+            <h4>Diploma, Civil Engineering</h4>
+            <p class="t-org">Govt. Polytechnic Masab Tank</p>
+            <p class="t-badge"><span>CGPA</span>8.57 / 10</p>
+          </li>
+          <li class="t-item">
+            <span class="t-date">2020 – 2021</span>
+            <h4>SSC (10th)</h4>
+            <p class="t-org">Government High School, Golconda</p>
+            <p class="t-badge"><span>CGPA</span>10 / 10</p>
+          </li>
+        </ol>
+      </div>
+      <div class="reveal">
+        <h3 class="col-title">Virtual internships</h3>
+        <ol class="timeline" style="list-style:none;margin:0">
+          <li class="t-item">
+            <span class="t-date">April 2026</span>
+            <h4>ServiceNow System Administrator Virtual Internship</h4>
+            <p class="t-org">ServiceNow</p>
+            <a class="t-cert" href="assets/certificates/ServiceNow_Virtual_Internship.pdf" target="_blank" rel="noopener">
+              <img src="assets/certificates/ServiceNow_Virtual_Internship.jpg" alt="ServiceNow University Virtual Internship Program certificate of completion for Pooja Saka" width="640" height="453" loading="lazy">
+              <span class="t-cert-text">
+                <b>View certificate</b>
+                <small>Issued 14 Apr 2026 · ID SNU2018818</small>
+              </span>
+            </a>
+          </li>
+          <li class="t-item">
+            <span class="t-date">February 2026</span>
+            <h4>Data Analytics Job Simulation</h4>
+            <p class="t-org">Deloitte · via Forage · tasks in data analysis and forensic technology</p>
+            <a class="t-cert" href="assets/certificates/Deloitte_Data_Analytics_Job_Simulation.pdf" target="_blank" rel="noopener">
+              <img src="assets/certificates/Deloitte_Data_Analytics_Job_Simulation.jpg" alt="Deloitte Data Analytics Job Simulation certificate of completion for Pooja Saka" width="640" height="452" loading="lazy">
+              <span class="t-cert-text">
+                <b>View certificate</b>
+                <small>Issued 4 Feb 2026</small>
+              </span>
+            </a>
+          </li>
+          <li class="t-item">
+            <span class="t-date">July – September 2025</span>
+            <h4>Java Full-Stack Virtual Internship</h4>
+            <p class="t-org">EduSkills · 10 weeks · AICTE</p>
+            <a class="t-cert" href="assets/certificates/EduSkills_Java_Full_Stack_Internship.pdf" target="_blank" rel="noopener">
+              <img class="portrait-cert" src="assets/certificates/EduSkills_Java_Full_Stack_Internship.jpg" alt="EduSkills Java Full Stack Developer Virtual Internship certificate for Saka Pooja" width="360" height="509" loading="lazy">
+              <span class="t-cert-text">
+                <b>View certificate</b>
+                <small>Java Full Stack Developer · Jul–Sep 2025</small>
+              </span>
+            </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CERTIFICATIONS ================= -->
+<section class="section" id="certifications" aria-labelledby="cert-title">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="path">~/certifications/</span>
+      <h2 class="section-title" id="cert-title">Certifications &amp; awards</h2>
+      <p class="section-lede">Credentials earned alongside my degree, grouped by issuer. Open a certificate or verify it with the issuer.</p>
+    </div>
+    <div class="cert-grid">
+      <!-- Each certificate row: put the file in assets/certificates/ and link it with class="cred-link". -->
+      <article class="cert reveal cert-tall">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Cisco</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Python Essentials 2</span><span class="cred-meta">23 Mar 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Cisco_Python_Essentials_2.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Python Essentials 2</span> ↗</a></span></li>
+          <li class="cred has-proof"><span class="cred-name">Introduction to IoT and Digital Transformation</span><span class="cred-meta">4 Apr 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Cisco_Intro_to_IoT_and_Digital_Transformation.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Introduction to IoT and Digital Transformation</span> ↗</a></span></li>
+          <li class="cred has-proof"><span class="cred-name">HTML Essentials</span><span class="cred-meta">26 May 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Cisco_HTML_Essentials.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for HTML Essentials</span> ↗</a></span></li>
+          <li class="cred has-proof"><span class="cred-name">Introduction to Data Science (IDS)</span><span class="cred-meta">9 Sep 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Cisco_Intro_to_Data_Science.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Introduction to Data Science (IDS)</span> ↗</a></span></li>
+          <li class="cred has-proof"><span class="cred-name">CCNA: Introduction to Networks</span><span class="cred-meta">4 Dec 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Cisco_CCNA_Intro_to_Networks.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for CCNA: Introduction to Networks</span> ↗</a></span></li>
+          <li class="cred"><span class="cred-name">Industrial Networking</span></li>
+        </ul>
+        <span class="cert-kind">Networking Academy</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Red Hat</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Getting Started with Linux Fundamentals (RH104)</span><span class="cred-meta">26 Oct 2025 · 16 credit hours</span><span class="cred-links"><a class="cred-link" href="assets/certificates/RedHat_RH104_Linux_Fundamentals.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Getting Started with Linux Fundamentals (RH104)</span> ↗</a><a class="cred-link" href="https://www.credly.com/badges/df3b6e38-8008-4237-84c4-2610b11c919f" target="_blank" rel="noopener">Verify<span class="sr-only"> Getting Started with Linux Fundamentals (RH104)</span> ↗</a></span></li>
+          <li class="cred has-proof"><span class="cred-name">OpenShift Development I: Introduction to Containers with Podman (DO188)</span><span class="cred-meta">26 Oct 2025 · 40 credit hours</span><span class="cred-links"><a class="cred-link" href="assets/certificates/RedHat_DO188_Containers_with_Podman.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for OpenShift Development I: Introduction to Containers with Podman (DO188)</span> ↗</a><a class="cred-link" href="https://www.credly.com/badges/397f678a-7b04-406e-99ad-3e00b41d2761" target="_blank" rel="noopener">Verify<span class="sr-only"> OpenShift Development I: Introduction to Containers with Podman (DO188)</span> ↗</a></span></li>
+        </ul>
+        <span class="cert-kind">Certificates of attendance</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Qlik</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Qlik Sense Business Analyst Qualification 2024</span><span class="cred-meta">18 Apr 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Qlik_Sense_Business_Analyst.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Qlik Sense Business Analyst Qualification 2024</span> ↗</a><a class="cred-link" href="https://www.credly.com/go/nHAyZtrQ" target="_blank" rel="noopener">Verify<span class="sr-only"> Qlik Sense Business Analyst Qualification 2024</span> ↗</a></span></li>
+        </ul>
+        <span class="cert-kind">Qualification</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>AWS Academy</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Machine Learning Foundations</span><span class="cred-meta">2026 · 20 hours</span><span class="cred-links"><a class="cred-link" href="assets/certificates/AWS_Academy_ML_Foundations.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Machine Learning Foundations</span> ↗</a><a class="cred-link" href="https://www.credly.com/go/xLsFMYcU" target="_blank" rel="noopener">Verify<span class="sr-only"> Machine Learning Foundations</span> ↗</a></span></li>
+        </ul>
+        <span class="cert-kind">Training badge</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Udemy</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">AWS Certified Solutions Architect – Associate 2025 (course)</span><span class="cred-meta">16 Oct 2025 · 34.5 hours</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Udemy_AWS_Solutions_Architect.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for AWS Certified Solutions Architect – Associate 2025 (course)</span> ↗</a></span></li>
+        </ul>
+        <span class="cert-kind">Course certificate</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Deloitte</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Data Analytics Job Simulation</span><span class="cred-meta">4 Feb 2026 · via Forage</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Deloitte_Data_Analytics_Job_Simulation.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Data Analytics Job Simulation</span> ↗</a></span></li>
+          <li class="cred"><span class="cred-name">Infosys IoT</span></li>
+        </ul>
+        <span class="cert-kind">Job simulation &amp; certification</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>EduSkills</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Java Full-Stack Virtual Internship</span><span class="cred-meta">Jul – Sep 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/EduSkills_Java_Full_Stack_Internship.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Java Full-Stack Virtual Internship</span> ↗</a></span></li>
+          <li class="cred"><span class="cred-name">AWS Academy Cloud Operations</span></li>
+        </ul>
+        <span class="cert-kind">Virtual internship &amp; certification</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.6 5.4 5.9.8-4.3 4.1 1 5.8L12 16.4 6.8 19.1l1-5.8L3.5 9.2l5.9-.8z"/></svg></span>Salesforce</div>
+        <ul class="creds">
+          <li class="cred"><span class="cred-name">Salesforce Platform Developer</span></li>
+          <li class="cred"><span class="cred-name">Agentblazer Champion &amp; Innovator</span></li>
+        </ul>
+        <span class="cert-kind">Certification &amp; award</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Simplilearn</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Introduction to Flutter</span><span class="cred-meta">11 Jul 2025</span><span class="cred-links"><a class="cred-link" href="assets/certificates/Simplilearn_Intro_to_Flutter.pdf" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Introduction to Flutter</span> ↗</a></span></li>
+          <li class="cred"><span class="cred-name">Node.js</span></li>
+        </ul>
+        <span class="cert-kind">Course certificates</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>Scalar</div>
+        <ul class="creds">
+          <li class="cred"><span class="cred-name">Operating Systems</span></li>
+        </ul>
+        <span class="cert-kind">Certification</span>
+      </article>
+      <article class="cert reveal">
+        <div class="cert-issuer"><span class="seal" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3"/></svg></span>Hackathon</div>
+        <ul class="creds">
+          <li class="cred has-proof"><span class="cred-name">Smart India Internal Hackathon 2025</span><span class="cred-meta">20–21 Sep 2025 · VJIT, Hyderabad</span><span class="cred-links"><a class="cred-link" href="assets/certificates/SIH_Internal_Hackathon_2025.jpg" target="_blank" rel="noopener">Certificate<span class="sr-only"> for Smart India Internal Hackathon 2025</span> ↗</a></span></li>
+        </ul>
+        <span class="cert-kind">Participation</span>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESUME ================= -->
+<section class="section section-alt" id="resume" aria-labelledby="resume-title" style="padding-block:clamp(56px,7vw,88px)">
+  <div class="container">
+    <div class="resume-band reveal">
+      <div class="doc-icon" aria-hidden="true"><span>PDF</span></div>
+      <div class="resume-text">
+        <span class="path">~/resume.pdf</span>
+        <h3 id="resume-title">Get my one-page resume</h3>
+        <p>Skills, projects, internships and education in a single PDF, ready to share with your hiring team.</p>
+        <span class="resume-meta">Pooja_Saka_Resume.pdf · 1 page · PDF</span>
+      </div>
+      <div class="resume-actions">
+        <!-- RESUME: replace assets/Pooja_Saka_Resume.pdf with your latest file (keep the same name). -->
+        <a class="btn btn-primary" href="assets/Pooja_Saka_Resume.pdf" download="Pooja_Saka_Resume.pdf">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+          Download Resume
+        </a>
+        <a class="btn btn-ghost" href="assets/Pooja_Saka_Resume.pdf" target="_blank" rel="noopener">View in browser</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container contact-wrap">
+    <div class="contact-copy reveal">
+      <span class="path">~/contact</span>
+      <h2 class="contact-big" id="contact-title">Hiring for software roles? <span class="grad">Let's talk.</span></h2>
+      <p>I'm open to entry-level software roles, internships and campus placement opportunities. Email is the fastest way to reach me, and I'm happy to walk you through any of my projects.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-primary" href="mailto:sakapooja07@gmail.com?subject=Opportunity%20for%20Pooja%20Saka">Email me</a>
+        <a class="btn btn-ghost" href="https://linkedin.com/in/pooja-saka-4a122932a" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+    <ul class="contact-list reveal">
+      <li class="contact-item">
+        <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5l8.5 6.5 8.5-6.5"/></svg></span>
+        <span class="contact-info"><small>Email</small><a href="mailto:sakapooja07@gmail.com" id="email-text">sakapooja07@gmail.com</a></span>
+        <button class="copy-btn" type="button" data-copy="sakapooja07@gmail.com">Copy</button>
+      </li>
+      <li>
+        <a class="contact-item" href="https://linkedin.com/in/pooja-saka-4a122932a" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.75h4v11H3zm7 0h3.8v1.6h.06c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.77 2.65 4.77 6.1v6.35h-4v-5.63c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.73H10z"/></svg></span>
+          <span class="contact-info"><small>LinkedIn</small><span>linkedin.com/in/pooja-saka-4a122932a</span></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+      <li>
+        <a class="contact-item" href="https://github.com/sakapooja" target="_blank" rel="noopener">
+          <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg></span>
+          <span class="contact-info"><small>GitHub</small><span>github.com/sakapooja</span></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year">2026</span> Pooja Saka · Built with HTML, CSS &amp; JavaScript</p>
+    <div class="footer-links">
+      <a href="mailto:sakapooja07@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/pooja-saka-4a122932a" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/sakapooja" target="_blank" rel="noopener">GitHub</a>
+      <a class="to-top" href="#home">Back to top ↑</a>
+    </div>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<!--PAGE-BODY-END-->
+<script src="script.js"></script>
+</body>
+</html>
